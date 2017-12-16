@@ -21,5 +21,33 @@ public class Main {
                 break;
         }
 
+        char charValue = 'A';
+        switch(charValue) {
+            case 'A:
+                System.out.println("Value was A");
+                break;
+            case 'B:
+                System.out.println("Value was 2");
+                break;
+            case 'C': case 'D': case 'E':
+                System.out.println("it was " + charValue);
+                break;
+            default:
+                System.out.println("was not A, B, C, D or E");
+                break;
+        }
+
+        String month = "June";
+        switch(month.toLowerCase()) {
+            case "january":
+                System.out.println("Jan");
+                break;
+            case "june":
+                System.out.println("Jun");
+                break;
+            default:
+                System.out.println("Not sure");
+        }
+
     }
 }
